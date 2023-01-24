@@ -1,0 +1,38 @@
+<? versão xml = " 1.0 " codificação = " UTF-8 " ?>
+< caminho de classe >
+	< classpathentry  kind = " src "  output = " target/classes "  path = " src/main/java " >
+		< atributos >
+			< nome do atributo  = " opcional " valor = " verdadeiro " /> 
+			< nome do atributo  = " maven.pomderived " value = " true " /> 
+		</ atributos >
+	</ classpathentry >
+	< classpathentry  excluindo = " ** "  kind = " src "  output = " target/classes "  path = " src/main/resources " >
+		< atributos >
+			< nome do atributo  = " maven.pomderived " value = " true " /> 
+		</ atributos >
+	</ classpathentry >
+	< classpathentry  kind = " src "  output = " target/test-classes "  path = " src/test/java " >
+		< atributos >
+			< nome do atributo  = " opcional " valor = " verdadeiro " /> 
+			< nome do atributo  = " maven.pomderived " value = " true " /> 
+			< nome do atributo  = " teste " valor = " verdadeiro " /> 
+		</ atributos >
+	</ classpathentry >
+	< classpathentry  excluindo = " ** "  kind = " src "  output = " target/test-classes "  path = " src/test/resources " >
+		< atributos >
+			< nome do atributo  = " maven.pomderived " value = " true " /> 
+			< nome do atributo  = " teste " valor = " verdadeiro " /> 
+		</ atributos >
+	</ classpathentry >
+	< classpathentry  kind = " con "  path = " org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5 " >
+		< atributos >
+			< nome do atributo  = " maven.pomderived " value = " true " /> 
+		</ atributos >
+	</ classpathentry >
+	< classpathentry  kind = " con "  path = " org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER " >
+		< atributos >
+			< nome do atributo  = " maven.pomderived " value = " true " /> 
+		</ atributos >
+	</ classpathentry >
+	< classpathentry  kind = " output "  path = " target/classes " />
+</ caminho de classe >
